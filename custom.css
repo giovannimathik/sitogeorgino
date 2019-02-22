@@ -21,6 +21,15 @@
   line-height: 3rem;
   color: #222; }
 
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card > h1, h2, h3, h4, h5, h6, p{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 @media (min-width: 550px) {
   .navbar ul li{
     display: inline;
